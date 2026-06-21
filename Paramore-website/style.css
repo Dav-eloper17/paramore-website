@@ -1,0 +1,119 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+}
+
+/* TOP BAR */
+.topbar {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #1db954, #191414);
+}
+
+.topbar h1 {
+    font-size: 50px;
+}
+
+.topbar p {
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+/* ABOUT */
+.about {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+    color: #b3b3b3;
+}
+
+.about h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* CARD */
+.card {
+    background: #181818;
+    border-radius: 16px;
+    padding: 20px;
+    transition: 0.3s ease;
+    border: 3px solid transparent;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    background: #242424;
+}
+
+/* IMAGES */
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* TEXT */
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #b3b3b3;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* TRIVIA */
+.trivia {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #1db954;
+}
+
+/* 🎨 BORDER COLORS (FIXED + CLEAR) */
+.green {
+    border-color: #1db954;
+    box-shadow: 0 0 15px rgba(29, 185, 84, 0.4);
+}
+
+.orange {
+    border-color: #ff7a00;
+    box-shadow: 0 0 15px rgba(255, 122, 0, 0.4);
+}
+
+.beige {
+    border-color: #f2e7c9;
+    box-shadow: 0 0 15px rgba(242, 231, 201, 0.3);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: #777;
+    margin-top: 40px;
+}
